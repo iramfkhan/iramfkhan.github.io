@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic);
+
+* {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
+}
+body {
+    background-color: #f0f0f2;
+    margin: 0;
+    padding: 0;
+    /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+#nameContainer {
+    margin:10px 0px 0px 10px;
+}
+
+#firstName, #lastName {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    color: #009999;
+}
+
+#firstName {
+    font-weight: 300;
+}
+
+#lastName {
+    font-weight: 700;
+}
+
+a:link,
+a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
